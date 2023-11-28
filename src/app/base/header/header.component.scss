@@ -1,0 +1,22 @@
+.main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-brand {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .header-logo {
+            width: 60px;
+            height: 60px;
+        }
+
+        .header-title {
+            font-size: 1.2rem;
+            margin-right: 20px;
+        }
+    }
+}

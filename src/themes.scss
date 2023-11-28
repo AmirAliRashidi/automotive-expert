@@ -5,17 +5,12 @@
 $nb-enable-css-custom-properties: true;
 
 $nb-themes: nb-register-theme((
-
-  // add your variables here like:
-
-  // color-primary-100: #f2f6ff,
-  // color-primary-200: #d9e4ff,
-  // color-primary-300: #a6c1ff,
-  // color-primary-400: #598bff,
-  // color-primary-500: #3366ff,
-  // color-primary-600: #274bdb,
-  // color-primary-700: #1a34b8,
-  // color-primary-800: #102694,
-  // color-primary-900: #091c7a,
+  font-family-primary: 'Vazir',
+  layout-background-color: '#343358',
   layout-content-width: 100%,
+  text-basic-color: '#eeedf3',
+  secondry-backgound-color: '#eeedf3',
+  secondry-text-color: '#a5a6b6',
+  layout-padding: 0,
+  thirdly-background-color: '#2a2748',
 ), default, default);

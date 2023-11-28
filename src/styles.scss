@@ -1,19 +1,31 @@
-@use 'themes' as *;
+@use 'themes'as *;
 
-@use '@nebular/theme/styles/globals' as *;
+@use '@nebular/theme/styles/globals'as *;
 
 @include nb-install() {
   @include nb-theme-global();
-};
-/* You can add global styles to this file, and also import other style files */
+}
+
+;
+
+@font-face {
+  font-family: 'Vazir';
+  font-display: swap;
+  src: url('/assets/font/Vazir-FD-WOL.woff2') format('woff2');
+}
+
+html,
+body {
+  cursor: default;
+}
 
 .layout-container {
   .content {
-      .center {
-          margin-left: 0 !important;
-          margin-right: 0 !important;
-          width: 100%;
-          min-width: 100%;
-      }
+    .center {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      width: 100%;
+      min-width: 100%;
+    }
   }
 }
